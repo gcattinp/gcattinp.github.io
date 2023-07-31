@@ -9,6 +9,11 @@ p {
   margin-bottom: 30px;
 }
 
+h3 > a {
+  color: #5D69B8;
+  /* text-decoration: none; */
+}
+
 .btn-blue {
   background-color: #5D69B8;
   color: white;
@@ -28,7 +33,7 @@ p {
 }
 
 .container {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -73,8 +78,20 @@ p {
   opacity: 0.5;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  column-gap: normal;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #box1 {
-  padding: 10px;
+  padding: 15px;
 }
 
 #box2 {
@@ -86,6 +103,7 @@ p {
   width: 150px;
   box-shadow: 0 5px 5px rgba(0,0,0,.1);
 }
+
 
 @media (max-width: 900px) {
   .container {

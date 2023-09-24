@@ -18,6 +18,11 @@ body {
   background-size: cover;
   height: 100vh;
   padding:0;
+  overflow: hidden;
+  user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 h1, h2, h3, h4 {

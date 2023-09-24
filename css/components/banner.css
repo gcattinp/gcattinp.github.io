@@ -1,0 +1,53 @@
+p {
+  margin: 0;
+}
+
+h4 {
+  padding-left: 20px;
+}
+.banner {
+  position: absolute;
+  width: 500px;
+  height: 180px;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  background-color: rgba(192, 211, 111, 0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgrey;
+  height: 25px;
+  border-bottom: solid black;
+  border-top: solid black;
+  padding-right: 10px;
+}
+
+.btn-close {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#closeBtn:focus {
+  outline: none;
+  box-shadow: none; /* Also removes the potential box-shadow on Bootstrap buttons */
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+
+.user-info img {
+  width: 110px;
+  height: 120px;
+  border: solid black;
+}

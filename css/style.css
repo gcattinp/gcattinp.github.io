@@ -64,3 +64,29 @@ a {
   z-index: -1;
   border: none;
 }
+
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre;
+  overflow: hidden;
+  z-index: 9999;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  transition: opacity 1s ease-in-out;
+}
+
+
+#main-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
